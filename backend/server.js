@@ -25,7 +25,7 @@ app.use(cors({
 app.use(express.json());
 
 // hash da senha
-const PASSWORD_HASH = '$2b$10$qaGbujCq83U2wIHuj5w/Cu9yx1oRkb66HXNF1gKyJLyd7NP2wFaVm';
+const PASSWORD_HASH = '$2b$10$Sumorq07XeLe93jpJ4TcHOAkp2XJV3FCxPGh3LcaBG.xjfWhV0c9K';
 
 app.post('/login', async (req, res) => {
   const { password } = req.body;
