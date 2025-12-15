@@ -7,7 +7,8 @@ const app = express();
 // Permitir múltiplas origens
 const allowedOrigins = [
   'https://diegoww12a.github.io',
-  'https://franca-dashboard.netlify.app/'
+  'https://franca-dashboard.netlify.app',
+  'http://localhost:5173'
 ];
 
 app.use(cors({
