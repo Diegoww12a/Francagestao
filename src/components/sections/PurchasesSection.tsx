@@ -159,7 +159,7 @@ export default function PurchasesSection() {
             {/* PREÇO */}
             <input
               type="text"
-              placeholder="Preço"
+              placeholder="Preço Unit"
               inputMode="numeric"
               value={newPurchase.price === 0 ? '' : formatIntBR(newPurchase.price)}
               onChange={(e) => {
