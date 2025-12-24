@@ -150,7 +150,7 @@ export default function SalesSection() {
             {/* PREÇO */}
             <input
               type="text"
-              placeholder="Preço"
+              placeholder="Preço Unit"
               value={newSale.price}
               onChange={(e) => {
                 const raw = e.target.value.replace(/\D/g, "");
